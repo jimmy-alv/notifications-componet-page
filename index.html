@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link
+      rel="shortcut icon"
+      href="imgs/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <title>Jaime Alvarez - Notifications Page Challenge</title>
+  </head>
+  <body>
+    <main>
+      <section class="header">
+        <h1>Notifications</h1>
+        <span id="count">3</span>
+        <a href="#" id="mark-as-read">Mark all as read</a>
+      </section>
+
+      <section class="notifications-cards">
+        <div class="notification-card unread">
+          <img src="imgs/avatar-mark-webber.webp" alt="Mark Webber" />
+          <p>
+            <a href="#">
+              <strong>Mark Webber</strong>
+            </a>
+            reacted to your recent post
+            <a href="#" class="post">
+              <strong>My first tournament today!</strong>
+            </a>
+            <span class="bullet-notification">&bull;</span>
+            <span class="time-ago">1m ago</span>
+          </p>
+        </div>
+
+        <div class="notification-card unread">
+          <img src="imgs/avatar-angela-gray.webp" alt="Angela Gray" />
+          <p>
+            <a href="#">
+              <strong>Angela Gray</strong>
+            </a>
+            followed you
+            <span class="bullet-notification">&bull;</span>
+            <span class="time-ago">5m ago</span>
+          </p>
+        </div>
+
+        <div class="notification-card unread">
+          <img src="imgs/avatar-jacob-thompson.webp" alt="Jacob Thompson" />
+          <p>
+            <a href="#">
+              <strong>Jacob Thompson</strong>
+            </a>
+            has joined your group
+            <a href="#" class="group">
+              <strong>Chess Club</strong>
+            </a>
+            <span class="bullet-notification">&bull;</span>
+            <span class="time-ago">1 day ago</span>
+          </p>
+        </div>
+
+        <div class="notification-card">
+          <img src="imgs/avatar-rizky-hasanuddin.webp" alt="Rizky Hasanuddin" />
+          <div class="activity">
+            <a href="#">
+              <strong>Rizky Hasanuddin</strong>
+            </a>
+            <span>sent you a private message</span>
+            <span class="time-ago">5 days ago</span>
+            <a href="#" class="message"
+              >Hello, thanks for setting up the Chess Club. I've been a member
+              for a few weeks now and I'm already having lots of fun and
+              improving my game.</a
+            >
+          </div>
+        </div>
+
+        <div class="notification-card">
+          <img src="imgs/avatar-kimberly-smith.webp" alt="Kimberly Smith" />
+          <p>
+            <a href="#">
+              <strong>Kimberly Smith</strong>
+            </a>
+            commented on your picture
+            <span class="time-ago">1 week ago</span>
+          </p>
+          <a href="#" class="picture-notification">
+            <img
+              src="imgs/image-chess.webp"
+              alt="Chess Game"
+            />
+          </a>
+        </div>
+      </section>
+
+      <div class="notification-card">
+        <img src="imgs/avatar-nathan-peterson.webp" alt="Nathan Peterson" />
+        <p>
+          <a href="#">
+            <strong>Nathan Peterson</strong>
+          </a>
+          reacted to your recent post
+          <a href="#" class="post">
+            <strong>5 end-game strategies to increase your win rate</strong>
+          </a>
+          <span class="time-ago">2 weeks ago</span>
+        </p>
+      </div>
+
+      <div class="notification-card">
+        <img src="imgs/avatar-anna-kim.webp" alt="Anna Kim" />
+        <p>
+          <a href="#">
+            <strong>Anna Kim</strong>
+          </a>
+          left the group
+          <a href="#" class="group">
+            <strong>Chess Club</strong>
+          </a>
+          <span class="time-ago">2 weeks ago</span>
+        </p>
+      </div>
+    </main>
+    <script src="js/script.js"></script>
+  </body>
+</html>
